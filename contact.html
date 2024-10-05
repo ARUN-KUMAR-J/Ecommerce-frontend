@@ -1,0 +1,89 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+
+    <!-- link google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- link own css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-menu-taggle" onclick="showsidenavabar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <!-- side nav-bar -->
+    <div class="sidenavbar" id="sidenavbar">
+        <p onclick="closesidenavbar()" style="text-align: right;"><i class="fa-solid fa-xmark"></i></p>
+        <div class="sidenavbar-links">
+            <p class="sidenavbar-link"><a class="side-a" href="index.html">Home</a></p>
+            <p class="sidenavbar-link"><a class="side-a" href="collections.html">Collections</a></p>
+            <p class="sidenavbar-link"><a class="side-a" href="contact.html">Contact</a></p>
+        </div>
+    </div>
+    <!-- contact -->
+    <div class="contact">
+        <div class="form-elem">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="form-elem">
+            <p>Name:</p>
+        </div>
+        <div class="form-elem">
+            <input type="text">
+        </div>
+        <div class="form-elem">
+            <p>Email:</p>
+        </div>
+        <div class="form-elem">
+            <input type="email">
+        </div>
+        <div class="form-elem">
+            <p>Message:</p>
+        </div>
+        <div class="form-elem">
+            <textarea id="textarea1" cols="30" rows="10"></textarea>
+        </div>
+        <div class="form-elem">
+            <button class="contact-but">Submit</button>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <h2>Nostra</h2>
+        <p>The Standard chunk of Lorem ipsum used since 1950is reproduced below for those interests</p>
+        <div class="socialmediaicon">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        <p>@2024 Nostra.com</p>
+    </div>
+    <script src="collections.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

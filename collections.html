@@ -1,0 +1,116 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+
+    <!-- link google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- link own css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+     <!-- offer -->
+     <div class="offerbar">
+        <p>Sign up <b> GET 20% OFF</b> for your First Order <i id="offer" style="margin-left: 4%; cursor: pointer;"
+                class="fa-solid fa-xmark"></i></p>
+    </div>
+    <!-- Navbar -->
+    <div class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-menu-taggle" onclick="showsidenavabar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <!-- side nav-bar -->
+    <div class="sidenavbar" id="sidenavbar">
+        <p onclick="closesidenavbar()" style="text-align: right;"><i class="fa-solid fa-xmark"></i></p>
+        <div class="sidenavbar-links">
+            <p class="sidenavbar-link"><a class="side-a" href="index.html">Home</a></p>
+            <p class="sidenavbar-link"><a class="side-a" href="collections.html">Collections</a></p>
+            <p class="sidenavbar-link"><a class="side-a"     href="contact.html">Contact</a></p>
+        </div>
+    </div>
+    <!-- collections -->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="products" id="product">
+            <div class="product-box">
+                <img style="height: 200px; width: 200px;"
+                    src="https://i.pinimg.com/236x/35/a0/c0/35a0c0de30569ad35dc6e521e2f361d1.jpg" alt="eror">
+                <p>White Shirt</p>
+            </div>
+            <div class="product-box">
+                <img style="height: 200px; width: 200px;"
+                    src="https://i.pinimg.com/236x/3c/6e/3a/3c6e3a4eb590368e3d0e131a142768c8.jpg" alt="eror">
+                <p>Black Shirt</p>
+            </div>
+            <div class="product-box">
+                <img style="height: 200px; width: 200px;"
+                    src="https://i.pinimg.com/236x/35/a0/c0/35a0c0de30569ad35dc6e521e2f361d1.jpg" alt="eror">
+                <p>White Shirt</p>
+            </div>
+            <div class="product-box">
+                <img style="height: 200px; width: 200px;"
+                    src="https://i.pinimg.com/236x/3c/6e/3a/3c6e3a4eb590368e3d0e131a142768c8.jpg" alt="eror">
+                <p>Black Shirt</p>
+            </div>
+            <div class="product-box">
+                <img style="height: 200px; width: 200px;"
+                    src="https://i.pinimg.com/236x/35/a0/c0/35a0c0de30569ad35dc6e521e2f361d1.jpg" alt="eror">
+                <p>White Shirt</p>
+            </div>
+            <div class="product-box">
+                <img style="height: 200px; width: 200px;"
+                    src="https://i.pinimg.com/236x/3c/6e/3a/3c6e3a4eb590368e3d0e131a142768c8.jpg" alt="eror">
+                <p>Black Shirt</p>
+            </div>
+            <div class="product-box">
+                <img style="height: 200px; width: 200px;"
+                    src="https://i.pinimg.com/236x/35/a0/c0/35a0c0de30569ad35dc6e521e2f361d1.jpg" alt="eror">
+                <p>White Shirt</p>
+            </div>
+            <div class="product-box">
+                <img style="height: 200px; width: 200px;"
+                    src="https://i.pinimg.com/236x/3c/6e/3a/3c6e3a4eb590368e3d0e131a142768c8.jpg" alt="eror">
+                <p>Black Shirt</p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <h2>Nostra</h2>
+        <p>The Standard chunk of Lorem ipsum used since 1950is reproduced below for those interests</p>
+        <div class="socialmediaicon">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        <p>@2024 Nostra.com</p>
+    </div>
+    <script src="collections.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

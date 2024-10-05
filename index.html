@@ -1,0 +1,241 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+
+    <!-- link google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- link own css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- offer -->
+    <div class="offerbar">
+        <p>Sign up <b> GET 20% OFF</b> for your First Order <i id="offer" style="margin-left: 4%; cursor: pointer;"
+                class="fa-solid fa-xmark"></i></p>
+    </div>
+    <!-- Navbar -->
+    <div class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html"> Home</a></p>
+            <p class="navbar-link"><a href="#new-arrival"> New Arrival</a></p>
+            <p class="navbar-link"><a href="#most-wanted"> Most Wanted</a></p>
+            <p class="navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-menu-taggle" onclick="showsidenavabar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <!-- side nav-bar -->
+    <div class="sidenavbar" id="sidenavbar">
+        <p onclick="closesidenavbar()" style="text-align: right;"><i class="fa-solid fa-xmark"></i></p>
+        <div class="sidenavbar-links">
+            <p class="sidenavbar-link"><a class="side-a"  href="index.html"> Home</a></p>
+            <p class="sidenavbar-link"><a class="side-a" href="collections.html">
+                    Collections</a></p>
+            <p class="sidenavbar-link"><a class="side-a" href="contact.html"> Contact</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Scroller -->
+    <div class="slider">
+        <div class="slider-left-button">
+            <i id="slider-left" class=" fa-solid fa-angle-left"></i>
+        </div>
+        <div class="slider-content">
+            <h1>Level up your style with our</h1>
+            <h4>Summer Collections</h4>
+            <button> Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+        </div>
+        <div class="slider-image-container">
+            <img class="slider-image" src="img/others/slider-one.jpg" alt="">
+            <img class="slider-image" src="img/others/slider-two.jpg" alt="">
+            <img class="slider-image" src="img/others/slider-three.jpg" alt="">
+        </div>
+        <div class="slider-right-button">
+            <i id="slider-right" class=" fa-solid fa-angle-right"></i>
+        </div>
+    </div>
+    <!-- Header -->
+    <div class="Header">
+        <div>
+            <h1>Level up your style</h1>
+            <p>With our stunning collections</p>
+            <button class="header-button">Shop Now</button>
+        </div>
+        <div>
+            <img class="header-image" style="height: 300px; width: 300px;"
+                src="https://i.pinimg.com/474x/6d/ba/2a/6dba2a10a5ea8bdbf101dcf143b2d441.jpg" alt="eror">
+        </div>
+    </div>
+    <div class="services">
+        <div class="service-container1">
+            <div>
+                <h2>We provide Best</h2>
+                <h2>Customer Experience</h2>
+            </div>
+
+            <div>
+                <p>|| We ensure that our customer have the best shopping experience</p>
+            </div>
+        </div>
+        <div class="service-container2">
+            <div>
+                <i style="font-size: 3vw;" class="fa-regular fa-circle-check"></i>
+                <h4>Original Products</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div>
+                <i style="font-size: 3vw;" class="fa-regular fa-face-smile"></i>
+                <h4>Satisfaction Guarantee</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <i style="font-size: 3vw;" class="fa-solid fa-broom"></i>
+                <h4>New Arrival Everyday</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div>
+                <i style="font-size: 3vw;" class="fa-solid fa-truck-fast"></i>
+                <h4>Fast and Free Shopping</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Brands -->
+    <h2 style="margin-top:5vw; margin-left: 20px;">Brands</h2>
+    <div class="brands-container">
+        <div class="brands-box">
+            <img class="brands-icon" src="img/icons/puma.png">
+            <p>Puma</p>
+        </div>
+        <div class="brands-box">
+            <img class="brands-icon" src="img/icons/adidas.png">
+            <p>Addidas</p>
+        </div>
+        <div class="brands-box">
+            <img class="brands-icon" src="img/icons/leaves.png">
+            <p>Leavess</p>
+        </div>
+        <div class="brands-box">
+            <img class="brands-icon" src="img/icons/simple.png">
+            <p>Simple</p>
+        </div>
+        <div class="brands-box">
+            <img class="brands-icon" src="img/icons/behance.png">
+            <p>Behance</p>
+        </div>
+        <div class="brands-box">
+            <img class="brands-icon" src="img/icons/nike.png">
+            <p>Nike</p>
+        </div>
+        <div class="brands-box">
+            <img class="brands-icon" src="img/icons/twitch.png">
+            <p>Twitch</p>
+        </div>
+    </div>
+    <!-- Services -->
+    <!-- New Arrivals -->
+    <div class="initial-scroll-animate reveal-scroll-animate">
+
+        <h2 id="new-arrival" style="padding: 20px; margin-top: 5vw">New Arrivals</h2>
+        <div class="newarrival">
+            <div class="newarrival-container">
+                <img style="height: 300px; width: 300px;"
+                    src="https://i.pinimg.com/236x/56/76/ae/5676ae4e3e60fb8a32226a694e4c1df0.jpg" alt="eror">
+                <div class="overlay"></div>
+                <button class="newarrival-button">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="newarrival-container">
+                <img style="height: 300px; width: 300px;"
+                    src="https://i.pinimg.com/236x/a8/a9/7e/a8a97ed1d64439ffa3eea7983f2732f8.jpg" alt="eror">
+                <div class="overlay"></div>
+                <button class="newarrival-button">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="newarrival-container">
+                <img style="height: 300px; width: 300px;"
+                    src="https://i.pinimg.com/236x/ea/70/34/ea70345a7a33db798e23a86f946515c4.jpg" alt="eror">
+                <div class="overlay"></div>
+                <button class="newarrival-button">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="newarrival-container">
+                <img style="height: 300px; width: 300px;"
+                    src="https://i.pinimg.com/236x/53/fe/06/53fe062f1483cfa741979b483e8019a5.jpg" alt="eror">
+                <div class="overlay"></div>
+                <button class="newarrival-button">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h2 id="most-wanted" style="padding: 20px; margin-top: 5vw;">Most Wanted</h2>
+        <div class="newarrival">
+            <div class="mostwanted-container">
+                <img style="height:300px; width: 300px; "
+                    src="https://i.pinimg.com/236x/f6/08/c3/f608c3d17c3850ea003d3698a330ebe5.jpg" alt="eror">
+                <img class="mostwanted-icon" src="img/icons/redheart.png" alt="">
+                <p>Sale</p>
+
+            </div>
+            <div class="mostwanted-container">
+                <img style="height: 300px; width: 300px;"
+                    src="https://i.pinimg.com/236x/bd/cd/7d/bdcd7d757d88c63851cbd43526208f7f.jpg" alt="eror">
+                <img class="mostwanted-icon" src="img/icons/redheart.png" alt="">
+                <p>Sale</p>
+            </div>
+            <div class="mostwanted-container">
+                <img style="height: 300px; width: 300px;"
+                    src="https://i.pinimg.com/474x/b9/1c/d4/b91cd4453a03bbbbb7f00a6b938a574b.jpg" alt="eror">
+                <img class="mostwanted-icon" src="img/icons/redheart.png" alt="">
+                <p>Sale</p>
+            </div>
+            <div class="mostwanted-container">
+                <img style="height: 300px; width: 300px;"
+                    src="https://i.pinimg.com/236x/df/9c/f4/df9cf47157f80bfd649467f8258f7bd2.jpg" alt="eror">
+                <img class="mostwanted-icon" src="img/icons/redheart.png" alt=""> \
+                <p>Sale</p>
+            </div>
+        </div>
+    </div>
+    <!-- News -->
+    <div class="news">
+        <h2>Join our News Letter</h2>
+        <p>Sign Up for our newsletter to get exclusive discounts and updates and more</p>
+        <div>
+            <input type="text" class="search">
+        </div>
+        <div>
+            <button>Subscribe</button>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <h2>Nostra</h2>
+        <p>The Standard chunk of Lorem ipsum used since 1950is reproduced below for those interests</p>
+        <div class="socialmediaicon">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        <p>@2024 Nostra.com</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
